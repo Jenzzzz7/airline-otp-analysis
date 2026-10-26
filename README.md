@@ -6,9 +6,6 @@ levers would most improve on-time performance.
 
 **Stack:** PostgreSQL · SQL (CTEs, window functions) · Python (pandas) · Power BI · Excel
 
-> 🎓 **New here / learning?** Start with [`LEARNING_GUIDE.md`](LEARNING_GUIDE.md) — it walks through
-> the whole project end to end and how to rebuild it with free tools.
-
 ---
 
 ## 📌 TL;DR findings
@@ -70,8 +67,6 @@ python run_analysis.py      # runs sql/analysis.sql and prints every result
 ```
 airline-otp-analysis/
 ├── README.md
-├── LEARNING_GUIDE.md          # how the project works + how to rebuild it (start here)
-├── GITHUB_SETUP.md            # step-by-step: push this repo to GitHub
 ├── build_data.py              # clean + feature-engineer + export CSVs
 ├── run_analysis.py            # run the SQL and print results
 ├── build_excel.py             # build the Excel dashboard
